@@ -1,0 +1,40 @@
+/* Intro */
+.intro-bg {
+  background: #d3ddda;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.intro-info,
+.intro-img {
+  flex: 1;
+}
+
+
+.intro-info p {
+  max-width: 370px;
+  margin-bottom: none;
+
+}
+
+@media (max-width: 850px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-info h2,
+  .intro-info p {
+    text-align: center;
+    max-width: initial;
+  }
+}
+
+@media (max-width: 600px) {
+}

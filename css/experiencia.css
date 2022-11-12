@@ -1,0 +1,82 @@
+/* Experiencia */
+.experiencia {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.experiencia-intro {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+.experiencia-intro > p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experiencia-intro a {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #dc9852;
+}
+
+.experiencia-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 30px;
+}
+
+.experiencia-item {
+  flex: 1 1 300px;
+}
+
+.experiencia-item img{
+  border: 2px solid #dc9852;
+  padding: 2px;
+}
+
+
+.experiencia-item h3 {
+  margin-top: 20px;
+  color: var(--color-titles);
+  line-height: 1.2;
+}
+
+.experiencia-item p {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: var(--color-texts);
+  max-width: 320px;
+}
+
+@media (max-width: 600px) {
+  .experiencia {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .experiencia-intro {
+    margin-bottom: 40px;
+  }
+
+
+  .experiencia-intro > p {
+    max-width: 500px;
+  }
+
+  .experiencia-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .experiencia-item p {
+    max-width: 370px;
+  }
+}

@@ -1,0 +1,50 @@
+/* Habilidades */
+.habilidades {
+  text-align: center;
+  padding: 100px 15px;
+  background: #d3ddda;
+}
+
+.habilidades > p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.habilidades-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.habilidades-list h3 {
+  color: var(--color-titles);
+  margin-bottom: 1.8rem;
+  line-height: 1.2;
+}
+
+.habilidades-list p {
+  color: var(--color-texts);
+  line-height: 1.4;
+  max-width: 280px;
+}
+
+@media (max-width: 600px) {
+  .habilidades {
+    text-align: center;
+    padding: 50px 15px;
+    background: #f1f1f1;
+  }
+
+
+  .habilidades-list {
+    margin-top: 2.5rem;
+    gap: 2rem;
+  }
+
+  .habilidades-list h3 {
+    margin-bottom: 1.2rem;
+  }
+}
